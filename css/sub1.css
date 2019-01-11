@@ -1,0 +1,84 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: 0;}
+.hidden{position: absolute; left: -9999px}
+
+@font-face {
+  font-family: NanumSquareEB;
+  src:url("../font/NanumSquareEB.ttf"),
+  url("../font/NanumSquareEB.eot"),
+  url("../font/NanumSquareEB.woff");
+}
+
+@font-face {
+  font-family: NanumBarunGothicSubset;
+  src:url("../font/NanumBarunGothicSubset.ttf"),
+  url("../font/NanumBarunGothicSubset.eot"),
+  url("../font/NanumBarunGothicSubset.woff");
+}
+
+#topButton{position: fixed; right: 30px; bottom: 30px; z-index: 999;}
+
+#wrap {width: 1920px; margin: 0 auto;}
+
+#header {height: 119px; overflow: hidden;
+   position:fixed; z-index:998; background-color: #fff; width: 100%}
+#header h1{float: left; padding: 26px 0 0 290px;}
+#header nav {float: left;}
+#header nav ul li{float: left; padding-left: 60px; padding-top: 45px;}
+#header nav ul li a{padding-bottom: 8px; color: #3b3c41;display: block; font-size: 24px;
+                   font-family: NanumSquareEB;}
+#header nav ul li a:hover{border-bottom: 3px solid #78a97e;}
+#header nav ul li a span{color: #78a97e;}
+
+#wrap3 {padding-top: 119px;}
+
+#header .sns{float: left; z-index:999;}
+#header .sns ul{margin: 38px 0 0 50px;}
+#header .sns ul li{float: left; }
+#header .sns ul li a{text-indent: -9999px; display: block; width: 40px; height: 37px;
+                      background: url(../images/mine/sns.png) no-repeat; }
+#header .sns ul li:nth-child(2) a{background-position: -44px 0;}
+#header .sns ul li:last-child a{background-position: -88px 0;}
+
+
+#sub1{padding: 150px 0 40px 290px;}
+
+#wrap2{width: 1340px; margin: 0 auto;}
+
+
+#content .gosangal1{text-align: center;}
+#content .gosangal1 h2,h3{text-align: center; font-family: NanumSquareEB;}
+#content .gosangal1 h2{color: #78a97e; padding-top: 80px;}
+#content .gosangal1 h3{color: #3b3c41; padding: 30px;}
+
+
+#content .gosangal2{text-align: center;}
+#content .gosangal2 h2,h3{text-align: center; font-family: NanumSquareEB;}
+#content .gosangal2 h2{color: #78a97e; padding-top: 80px;}
+#content .gosangal2 h3{color: #3b3c41; padding: 30px;}
+
+
+#content .gosangal3{padding-bottom: 70px; text-align: center;}
+#content .gosangal3 h2,h3{text-align: center; font-family: NanumSquareEB;}
+#content .gosangal3 h2{color: #78a97e; padding-top: 80px;}
+#content .gosangal3 h3{color: #3b3c41; padding: 30px;}
+
+
+#content .gosangal3 table{border-collapse:collapse; width: 950px; display: block; margin: 0 auto;}
+#content th{height: 50px; font-size: 15px; color:#fff; background: #78a97e; font-family: NanumSquareEB;}
+#content td a{white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; width: 510px;}
+#content .번호{width: 100px;}
+#content .제목{width: 510px;}
+#content .등록자{width: 130px;}
+#content .등록일{width: 130px;}
+#content .조회수{width: 130px;}
+#content .gosangal3 td{height: 50px; border-bottom: 1px dotted #3e3e3e; font-family: NanumBarunGothicSubset;}
+
+
+
+#footer{clear: both; height: 150px; background-color: #78aa7e; position: relative; font-family: NanumBarunGothicSubset;}
+#footer img{position: absolute; left: 290px; top:15px;}
+#footer p{position: absolute; left: 475px; top:45px; color: #fff;}
+#footer address{position: absolute; left: 475px; top:70px; color: #fff;}
