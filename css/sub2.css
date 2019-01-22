@@ -22,6 +22,7 @@ img{border: 0;}
 
 #wrap {width: 1920px; margin: 0 auto;}
 
+.shadow {box-shadow: 0 0 20px rgba(0,0,0,0.4);}
 #header {height: 119px; overflow: hidden;
    position:fixed; z-index:998; background-color: #fff; width: 100%}
 #header h1{float: left; padding: 26px 0 0 290px;}
